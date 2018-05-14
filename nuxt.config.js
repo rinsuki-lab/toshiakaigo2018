@@ -34,8 +34,5 @@ module.exports = {
         })
       }
     }
-  },
-  router: {
-    base: "/toshiakaigo2018/",
   }
 }
