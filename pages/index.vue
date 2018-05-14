@@ -5,9 +5,9 @@
       <h1 class="title">
         #toshiakaigo2018
       </h1>
-      <!-- <h2 class="subtitle">
-        Nuxt.js project
-      </h2> -->
+      <h2 class="subtitle">
+        PR: <a href="https://mikutter.connpass.com/event/86077/">mikutter Nagoya 2018.5 - connpass</a>
+      </h2>
       <timeline />
       <a class="toot" href="https://mastportal.info/intent?text=%23toshiakaigo2018" target="_blank">
         #toshiakaigo2018 でトゥート
