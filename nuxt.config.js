@@ -6,8 +6,8 @@ module.exports = {
     title: 'toshiakaigo2018',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'toshiakaigo2018' },
+      { name: "og:image", content: "https://toshiakaigo2018.netlify.com/110ef776ea0ba461%20(1).png" },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
