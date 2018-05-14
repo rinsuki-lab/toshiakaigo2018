@@ -12,6 +12,7 @@
       <a class="toot" href="https://mastportal.info/intent?text=%23toshiakaigo2018" target="_blank">
         #toshiakaigo2018 でトゥート
       </a>
+      <a href="https://github.com/rinsuki/toshiakaigo2018">https://github.com/rinsuki/toshiakaigo2018</a>
     </div>
   </section>
 </template>
@@ -64,5 +65,9 @@ export default {
   background: #00a4ff;
   color: white;
   padding: 0.5em;
+  margin: 1em 0;
+}
+.container > div {
+  margin-bottom: 2em
 }
 </style>
