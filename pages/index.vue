@@ -9,6 +9,9 @@
         Nuxt.js project
       </h2> -->
       <timeline />
+      <a class="toot" href="https://mastportal.info/intent?text=%23toshiakaigo2018" target="_blank">
+        #toshiakaigo2018 でトゥート
+      </a>
     </div>
   </section>
 </template>
@@ -53,5 +56,13 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.toot {
+  display: block;
+  margin-top: 1em;
+  background: #00a4ff;
+  color: white;
+  padding: 0.5em;
 }
 </style>
