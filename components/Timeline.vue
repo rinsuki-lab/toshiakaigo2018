@@ -3,9 +3,11 @@
     <div class="title">#toshiakaigo2018 in social.mikutter.hachune.net</div>
     <div class="main">
       <div class="post" v-for="post in posts" :key="post.id">
-        {{ post.account.display_name || post.account.username }}
-        <span class="acct"><a :href="post.account.url">@{{post.account.acct}}</a></span>
-        <span v-html="post.content" />
+        <div>
+          {{ post.account.display_name || post.account.username }}
+          <span class="acct"><a :href="post.account.url">@{{post.account.acct}}</a></span>
+        </div>
+        <span v-html="post.content" class="post-html"/>
       </div>
     </div>
     <div class="more-link">
@@ -53,5 +55,13 @@ export default Vue.extend({
   .acct {
     opacity: 0.9;
     margin-left: 0.5em;
+  }
+</style>
+
+<style>
+  .post-html a[href*="tags/toshiakaigo2018"], .post-html a[href*="tag/toshiakaigo2018"]{
+    color:red;
+    font-style: italic;
+    font-weight: bold;
   }
 </style>
