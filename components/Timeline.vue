@@ -23,7 +23,7 @@ export default Vue.extend({
     posts: []
   }),
   mounted() {
-    fetch("https://social.mikutter.hachune.net/api/v1/timelines/tag/toshiakaigo2018?count=10").then(r => r.json()).then(r => {
+    fetch("https://social.mikutter.hachune.net/api/v1/timelines/tag/toshiakaigo2018?limit=10").then(r => r.json()).then(r => {
       this.posts = this.posts.concat(r)
     })
     const ws = new WebSocket("wss://social.mikutter.hachune.net/api/v1/streaming/?stream=hashtag&tag=toshiakaigo2018")
